@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/ea4456f54e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!---------------------- HEADER ------------------------>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <nav class="nav">
+          <input type="checkbox" id="meun" />
+          <label for="meun" class="meun-control"></label>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#section--character" class="nav__link">人物介紹</a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--gallery" class="nav__link">劇照圖庫</a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--english" class="nav__link">跟浩南哥學英文</a>
+            </li>
+            <li class="nav__item">
+              <a href="#section--weapon" class="nav__link">武器大全</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!---------------------- SECTION CHARACTER ------------------------>
+    <section class="section--character" id="section--character">
+      <input type="radio" name="card" id="nam" />
+      <input type="radio" name="card" id="pee" />
+      <input type="radio" name="card" id="two" />
+      <input type="radio" name="card" id="chicken" />
+      <input type="radio" name="card" id="pee2" />
+      <input type="radio" name="card" id="raven" />
+
+      <div class="character-group">
+        <label for="nam" class="character character--nam">
+          <div class="character-front"></div>
+        </label>
+        <label for="pee" class="character character--pee">
+          <div class="character-front"></div>
+        </label>
+        <label for="two" class="character character--two">
+          <div class="character-front"></div>
+        </label>
+        <label for="chicken" class="character character--chicken">
+          <div class="character-front"></div>
+        </label>
+        <label for="pee2" class="character character--pee2">
+          <div class="character-front"></div>
+        </label>
+        <label for="raven" class="character character--raven">
+          <div class="character-front"></div>
+        </label>
+      </div>
+
+      <div class="info-group">
+        <div class="info--character info--nam">
+          <h2 class="info__title">陳浩南</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+        <div class="info--character info--pee">
+          <h2 class="info__title">包皮</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+        <div class="info--character info--two">
+          <h2 class="info__title">大天二</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+        <div class="info--character info--chicken">
+          <h2 class="info__title">山雞</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+        <div class="info--character info--pee2">
+          <h2 class="info__title">巢皮</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+        <div class="info--character info--raven">
+          <h2 class="info__title">烏鴉</h2>
+          <p class="info__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Facere dolorum accusamus aspernatur ex culpa praesentium neque
+            autem excepturi ipsum dolorem.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-video-group">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/M0R25E3oQuM?controls=0&autoplay=1&mute=1&playlist=M0R25E3oQuM&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="bg-video bg-video-nam"
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/JV6Dkef4PI0?controls=0&autoplay=1&mute=1&playlist=JV6Dkef4PI0&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          class="bg-video bg-video-pee"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/M0R25E3oQuM?controls=0&autoplay=1&mute=1&playlist=M0R25E3oQuM&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="bg-video bg-video-two"
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/JV6Dkef4PI0?controls=0&autoplay=1&mute=1&playlist=JV6Dkef4PI0&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          class="bg-video bg-video-chicken"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/M0R25E3oQuM?controls=0&autoplay=1&mute=1&playlist=M0R25E3oQuM&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="bg-video bg-video-pee2"
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YxDcYajVvcg?controls=0&autoplay=1&mute=1&playlist=YxDcYajVvcg&loop=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="bg-video bg-video-raven"
+        ></iframe>
+      </div>
+    </section>
+
+    <!---------------------- SECTION GALLERY ------------------------>
+    <section class="section--gallery" id="section--gallery">
+      <div class="gallery-mobile-container">
+        <div class="overlay"></div>
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/gallery/gallery1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery2.gif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery4.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery5a.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery5b.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery6.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery7.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery7.gif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery8.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery9.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery10.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/gallery/gallery11.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+        <div class="overlay"></div>
+        <div class="gallery">
+          <div class="gallery__item gallery__item1">
+            <img src="./images/gallery/gallery1.png" alt="" />
+          </div>
+          <div class="gallery__item gallery__item2">
+            <img src="./images/gallery/gallery2.gif" alt="" />
+          </div>
+          <div class="gallery__item gallery__item3">
+            <img src="./images/gallery/gallery3.jpg" alt="" />
+          </div>
+          <div class="gallery__item gallery__item4">
+            <img src="./images/gallery/gallery4.jpeg" alt="" />
+          </div>
+          <div class="gallery__item gallery__item5">
+            <!--  <img src="./images/gallery/gallery5a.jpg" alt="" /> -->
+          </div>
+          <div class="gallery__item gallery__item6">
+            <img src="./images/gallery/gallery6.jpg" alt="" />
+          </div>
+          <div class="gallery__item gallery__item7">
+            <!-- <img src="./images/gallery/gallery7.jpg" alt="" /> -->
+          </div>
+          <div class="gallery__item gallery__item8">
+            <img src="./images/gallery/gallery8.jpeg" alt="" />
+          </div>
+          <div class="gallery__item gallery__item9">
+            <img src="./images/gallery/gallery9.jpg" alt="" />
+          </div>
+          <div class="gallery__item gallery__item10">
+            <img src="./images/gallery/gallery10.png" alt="" />
+          </div>
+          <div class="gallery__item gallery__item11">
+            <img src="./images/gallery/gallery11.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------- SECTION ENGLISH ------------------------>
+    <section class="section--english" id="section--english">
+      <div class="tv">
+        <img src="./images/tv-png.png" alt="" class="tv-png" />
+        <iframe
+          width="560"
+          height="315"
+          src="./video/1005.mp4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="english-video"
+        ></iframe>
+      </div>
+    </section>
+
+    <!---------------------- SECTION WEAPON ------------------------>
+    <section class="section--weapon" id="section--weapon">
+      <div class="section--weapon-container">
+        <input type="radio" id="chair" name="weapon" />
+        <input type="radio" id="knife" name="weapon" />
+        <input type="radio" id="butt" name="weapon" />
+        <input type="radio" id="megaphone" name="weapon" />
+
+        <div class="btn-group">
+          <label for="chair">
+            <div class="btn--weapon btn--weapon-chair">Chair</div></label
+          >
+          <label for="knife">
+            <div class="btn--weapon btn--weapon-knife">Knife</div></label
+          >
+          <label for="butt"
+            ><div class="btn--weapon btn--weapon-butt">Butt</div></label
+          >
+          <label for="megaphone"
+            ><div class="btn--weapon btn--weapon-megaphone">
+              Megaphone
+            </div></label
+          >
+        </div>
+
+        <div class="weapon--image-group">
+          <div class="img-container img-chair">
+            <img
+              src="./images/chair.png"
+              alt="chair"
+              class="weapon-image weapon-chair"
+            />
+          </div>
+          <div class="img-container img-knife">
+            <img
+              src="./images/knife.png"
+              alt="knife"
+              class="weapon-image weapon-knife"
+            />
+          </div>
+          <div class="img-container img-butt">
+            <img
+              src="./images/drug.png"
+              alt="butt"
+              class="weapon-image weapon-butt"
+            />
+          </div>
+          <div class="img-container img-megaphone">
+            <img
+              src="./images/bigbignoice.png"
+              alt="megaphone"
+              class="weapon-image weapon-megaphone"
+            />
+          </div>
+        </div>
+
+        <div class="weapon--info-group">
+          <div class="weapon--info info-chair">
+            <h3 class="info-title">摺登</h3>
+            <p class="info-descript">
+              出場場次: 10
+              <br />
+              使用者: 陳浩南
+              <br />
+              殺敵人數: 100
+            </p>
+          </div>
+          <div class="weapon--info info-knife">
+            <h3 class="info-title">西瓜刀</h3>
+            <p class="info-descript">
+              出場場次: 10
+              <br />
+              使用者: 烏鴉 a.k.a 耀揚
+              <br />
+              殺敵人數: 1 (西瓜)
+            </p>
+          </div>
+          <div class="weapon--info info-butt">
+            <h3 class="info-title">煙頭</h3>
+            <p class="info-descript">
+              出場場次: 10
+              <br />
+              使用者: 烏鴉 a.k.a 耀揚
+              <br />
+              殺敵人數: 1 (西瓜)
+            </p>
+          </div>
+          <div class="weapon--info info-megaphone">
+            <h3 class="info-title">大聲公</h3>
+            <p class="info-descript">
+              出場場次: 1
+              <br />
+              使用者: 林牧師
+              <br />
+              殺敵人數: 1
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------- FOOTER ------------------------>
+    <footer class="footer">
+      <div class="social-media-group">
+        <a href="#" class="link--fb"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" class="link--ig"><i class="fab fa-instagram"></i></a>
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <p class="copyright">
+        Copyright &copy; 2022 by Ace, Adela, Cecilia, Morris and Joe.
+      </p>
+    </footer>
+  </body>
+</html>
